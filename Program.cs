@@ -4,37 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Q1
+namespace Q4
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            string str_equ1 = "Dot net compare";
-
-            string str_equ2 = " .net compare";
-
-
-
-            if (String.Equals(str_equ1, str_equ2))
-
+            string s1 = "Welcome to the world of C# programming";
+            string[] s2 = s1.Split(' ');
+            foreach (string s3 in s2)
             {
-
-                Console.WriteLine("Both Strings are equal!");
-
+                Console.WriteLine(s3);
+                Console.ReadLine();
             }
-
-            else
-
-            {
-
-                Console.WriteLine("Both Strings are not equal!");
-
-            }
-
-
-
-            Console.ReadLine();
         }
     }
 }
