@@ -10,7 +10,7 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            //SampleClass.Printsting();
+            
             FileMethods.MakeFile();
             Console.Read();
         }
